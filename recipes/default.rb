@@ -7,7 +7,7 @@
 script_dir = '/opt/hmckenzie-scripts/'
 config_dir = '/etc/dynamic-dns/'
 
-package 'jq'
+package ['jq', 'git']
 
 git script_dir do
   repository 'git://github.com/Milkeh/hmckenzie-scripts.git'
